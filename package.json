@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-oracle11g",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Oracle 11g database node for n8n workflow automation platform",
   "main": "index.js",
   "license": "MIT",

@@ -12,7 +12,7 @@ export class Oracle11g implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Oracle 11g Database',
 		name: 'oracle11g',
-		icon: 'file:oracle.png',
+		icon: 'file:oracle.svg',
 		group: ['input', 'output'],
 		version: 1,
 		description: 'Execute SQL queries on Oracle 11g database',
