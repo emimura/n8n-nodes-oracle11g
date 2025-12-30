@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-oracle11g",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Oracle 11g database node for n8n workflow automation platform",
   "main": "index.js",
   "license": "MIT",
@@ -18,10 +18,17 @@
     "sql"
   ],
   "n8n": {
-    "nodes": ["nodes/Oracle11g/Oracle11g.node.js"],
-    "credentials": ["credentials/Oracle11gApi.credentials.js"]
+    "nodes": [
+      "nodes/Oracle11g/Oracle11g.node.js"
+    ],
+    "credentials": [
+      "credentials/Oracle11gApi.credentials.js"
+    ]
   },
   "dependencies": {
     "oracledb": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
   }
 }
