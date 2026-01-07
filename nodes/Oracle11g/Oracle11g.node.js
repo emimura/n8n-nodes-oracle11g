@@ -41,7 +41,7 @@ class Oracle11g {
         this.description = {
             displayName: 'Oracle 11g Database',
             name: 'oracle11g',
-            icon: 'file:oracle.svg',
+            icon: 'file:oracle11g.svg',
             group: ['input', 'output'],
             version: 1,
             description: 'Execute SQL queries on Oracle 11g database',
